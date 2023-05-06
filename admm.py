@@ -62,7 +62,6 @@ def admm(dim_k, kernel):
   K = 2 # Downsampling factor
   high_res = plt.imread("data/lotus.jpg")
 
-  kernel = "hamming"
   # Produce the blur kernel
   if kernel == "gauss":
     # Gaussian kernel
